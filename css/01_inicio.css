@@ -7,11 +7,9 @@
 }
 
 body{
-    background: linear-gradient(to left, #01B5CC, #A2CFCF);
+    background: linear-gradient(to left, #01B5CC, #067777);
 
 }
-
-
 
 header img{
     width: 150px;
@@ -40,4 +38,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+}
+
+#tela{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    width: 600px;
+    padding: 30px;
 }
