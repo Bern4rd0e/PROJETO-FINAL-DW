@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 body{
     background: linear-gradient(to left, #01B5CC, #067777);
 
@@ -16,17 +15,6 @@ header img{
     width: 150px;
     float: left;
     padding-left: 30px;
-=======
-body {
-  background: linear-gradient(to left, #01b5cc, #a2cfcf);
-}
-
-header img {
-  width: 150px;
-  float: left;
-  padding-left: 30px;
->>>>>>> 46549f41cd583d9fa7547c3caadb86bfda35f4a1
-}
 
 header h2 {
   color: white;
@@ -46,18 +34,13 @@ nav ul li {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
 
 #tela{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
     width: 600px;
     padding: 30px;
 }
-=======
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -79,4 +62,3 @@ a {
 .span-data {
   color: white;
 }
->>>>>>> 46549f41cd583d9fa7547c3caadb86bfda35f4a1
