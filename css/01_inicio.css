@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    font-family: poppins;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
 }
 
+<<<<<<< HEAD
 body{
     background: linear-gradient(to left, #01B5CC, #067777);
 
@@ -15,26 +16,37 @@ header img{
     width: 150px;
     float: left;
     padding-left: 30px;
+=======
+body {
+  background: linear-gradient(to left, #01b5cc, #a2cfcf);
 }
 
-header h2{
-    color: white;
-    float: left;
-    padding-top: 50px;
-    padding-left: 20px;
+header img {
+  width: 150px;
+  float: left;
+  padding-left: 30px;
+>>>>>>> 46549f41cd583d9fa7547c3caadb86bfda35f4a1
 }
 
-nav ul{
-    clear: both;
+header h2 {
+  color: white;
+  float: left;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
-nav ul li{
-    display: inline-flex;
-    margin-left: 10%;
-    color: white;
-    font-weight: 700;
+nav ul {
+  clear: both;
 }
 
+nav ul li {
+  display: inline-flex;
+  margin-left: 10%;
+  color: white;
+  font-weight: 700;
+}
+
+<<<<<<< HEAD
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -45,3 +57,26 @@ nav ul li a{
     width: 600px;
     padding: 30px;
 }
+=======
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 5px 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.span-data {
+  color: white;
+}
+>>>>>>> 46549f41cd583d9fa7547c3caadb86bfda35f4a1
