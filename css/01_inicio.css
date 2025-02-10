@@ -37,7 +37,7 @@ nav ul li {
 
 
 #tela{
-  width: 500px;
+  width: 600px;
   padding-top: 100px;
   height: auto;
   mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
@@ -51,17 +51,40 @@ nav ul li {
     
 }
 
-.carrossel{
-    width: 230px;
-    height: 150px;
-    padding-top: 30px;
-    padding-left: 20px;
+#textoPrincipal{
+  width: 600px;
+}
+
+#maiorIdade{
+  width: 20px;
+  padding-top: 10px;
+}
+
+span, li{
+  font-size: 10px;
+}
+
+h1{
+  padding-left: 20px;
+  padding-top: 80px;
 }
 
 div p{
-    padding: 20px;
+   padding-left: 20px;
 }
 
+ul li{
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.carrossel{
+    width: 230px;
+    height: 140px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
 
 nav ul li a {
   text-decoration: none;
