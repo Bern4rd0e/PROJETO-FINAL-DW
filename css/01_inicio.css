@@ -45,9 +45,9 @@ nav ul li {
 }
 
 .telaPrincipal{
-    color: white;
-    display: flex; 
-    align-items: center; 
+  color: white;
+  display: flex; 
+  align-items: center; 
     
 }
 
@@ -60,7 +60,7 @@ nav ul li {
   padding-top: 10px;
 }
 
-span, li{
+span, main div ul li{
   font-size: 10px;
 }
 
