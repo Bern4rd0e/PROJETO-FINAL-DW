@@ -127,8 +127,8 @@ textarea {
 .formulario {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 15px;
+  align-items: center;
+  margin-bottom: 50px;
   padding: 0 10px; 
   border-radius: 50px;
 }
@@ -171,6 +171,8 @@ footer {
   bottom: 0;
   text-align: center;
 }
+
+
 
 
 
