@@ -163,10 +163,15 @@ input[type="password"] {
 }
 
 .gif-rick {
+
   padding: 0;
   float: right;
   margin: 0;
 }
+
+/* #contatos{
+  text-align: center;
+} */
 
 footer {
   background-color: #067777;
