@@ -172,8 +172,11 @@ input[type="password"] {
   margin: 0 ;
   max-width: 50%;
   position: absolute;
-  
 }
+
+/* #contatos{
+  text-align: center;
+} */
 
 footer {
   background-color: #067777;
