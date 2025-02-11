@@ -132,6 +132,11 @@ textarea {
   border-radius: 50px;
 }
 
+.p-entre-contatos {
+  text-align: center;
+  
+}
+
 label {
   margin-bottom: 5px;
   color: white;
@@ -163,10 +168,10 @@ input[type="password"] {
 }
 
 .gif-rick {
-
-  padding: 0;
-  float: right;
-  margin: 0;
+  display: flex;
+  margin: 0 ;
+  max-width: 50%;
+  position: absolute;
 }
 
 /* #contatos{
