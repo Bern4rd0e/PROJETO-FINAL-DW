@@ -117,7 +117,7 @@ a {
 }
 
 textarea {
-  width: 30%;
+  width: 20%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -145,7 +145,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: 30%;
+  width: 20%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 9px;
