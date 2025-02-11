@@ -55,6 +55,10 @@ nav ul li {
   width: 600px;
 }
 
+#min{
+  padding-left: 0 ;
+}
+
 #maiorIdade{
   width: 20px;
   padding-top: 10px;
@@ -62,6 +66,7 @@ nav ul li {
 
 #aviso{
   display: inline-flex;
+  padding-left: 10px;
 }
 
 span, main div ul li{
@@ -70,7 +75,7 @@ span, main div ul li{
 
 span{
   padding-top: 12px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 main div ul li{
