@@ -1,0 +1,15 @@
+p{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#atual{
+    border: solid 2px greenyellow;
+}

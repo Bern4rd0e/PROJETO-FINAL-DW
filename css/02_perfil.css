@@ -1,0 +1,53 @@
+main{
+    background: linear-gradient(to right, #000000, #067777);
+    border-radius: 20px;
+    position: relative;
+    left:12%;
+    top: 50px;
+    width: 500px;
+}
+
+#alterarConta{
+    position: relative;
+    top: 150px;
+    left: 25px;
+    font-size: 10px;
+}
+
+#alterarConta a:hover{
+    color: blue;
+}
+
+main p{
+    color: white;
+}
+
+#fotoNome{
+    display: flex;
+}
+
+#fotoPerfil{
+    position: relative;
+    left:10%;
+    top: 20px;
+    width: 100px;
+    border-radius: 1000px;
+    
+}
+
+#nome{
+    position: relative;
+    top: 40px;
+    left:10%;
+    font-weight: 700;
+}
+
+#conta{
+    font-size: 10px;
+    padding-left: 30%;
+}
+
+
+span{
+    color: red;
+}
