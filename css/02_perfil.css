@@ -11,11 +11,11 @@ main{
     position: relative;
     top: 150px;
     left: 25px;
-    font-size: 10px;
+    font-size: 10px;;
 }
 
 #alterarConta a:hover{
-    color: blue;
+    color: gray;
 }
 
 main p{
@@ -50,4 +50,16 @@ main p{
 
 span{
     color: red;
+}
+
+
+
+.Dados-do-perfil {
+    font-weight: 700;
+    font-size: small;
+    
+}
+
+.Dados-do-perfil:hover{
+    color: darkgray;
 }
