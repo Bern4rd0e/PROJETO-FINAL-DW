@@ -37,14 +37,28 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+  transition: .20s;
 }
 
+.link-header:hover {
+  scale: 1.1;
+}
+
+
+
 #tela {
+  padding-left: 20px;
   width: 600px;
   padding-top: 100px;
   height: auto;
   mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
   -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
+  transition: .35s;
+  
+}
+
+#tela:hover {
+ transform: scale(1.1);
 }
 
 .telaPrincipal {
@@ -52,6 +66,8 @@ nav ul li a {
   display: flex;
   align-items: center;
 }
+
+
 
 #textoPrincipal {
   width: 600px;
@@ -105,6 +121,13 @@ ul li {
   height: 140px;
   padding-top: 30px;
   padding-left: 20px;
+  transition: .35s;
+  
+}
+
+.carrossel:hover {
+  transform: scale(1.1);
+  
 }
 
 a {
@@ -189,4 +212,9 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
+}
+
+.contas-perfil:hover {
+  scale: 1.1;
+  transition: .20s;
 }

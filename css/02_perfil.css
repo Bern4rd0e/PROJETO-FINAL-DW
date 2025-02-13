@@ -11,10 +11,12 @@ main{
     position: relative;
     top: 150px;
     left: 25px;
-    font-size: 10px;;
+    font-size: 10px;
+    transition: .20s;
+    cursor: pointer;
 }
 
-#alterarConta a:hover{
+#alterarConta:hover{
     color: gray;
 }
 
@@ -57,9 +59,10 @@ span{
 .Dados-do-perfil {
     font-weight: 700;
     font-size: small;
+    transition: .20s;
     
 }
 
-.Dados-do-perfil:hover{
+.Dados-do-perfil:hover {
     color: darkgray;
 }
