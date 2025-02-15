@@ -1,15 +1,25 @@
-p{
-    color: white;
-    text-align: center;
+p {
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
 }
 
-img{
-    width: 100px;
-    margin: 10px;
-    border-radius: 10px;
+img {
+  width: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#atual {
+  border: solid 2px greenyellow;
+}
+
+
+
+.assistindo {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-#atual{
-    border: solid 2px greenyellow;
+    margin-top: 35px;
 }
