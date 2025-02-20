@@ -233,6 +233,10 @@ footer {
   display: flex;
 }
 
+p{
+  float: left;
+}
+
 button {
   position: absolute;
   top: 65%;
