@@ -1,6 +1,6 @@
 let index = 0;
 
-function moverSlide(n=5) {
+function moverSlide(n) {
     const slides = document.querySelectorAll(".carrossel img");
     const totalSlides = slides.length;
     index += n;
