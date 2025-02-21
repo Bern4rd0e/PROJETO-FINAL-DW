@@ -133,9 +133,7 @@ ul li {
   transition: 0.35s;
 }
 
-img:hover {
-  transform: scale(1.1);
-}
+
 
 a {
   text-decoration: none;
