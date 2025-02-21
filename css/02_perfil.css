@@ -11,7 +11,7 @@ main{
 #alterarConta{
     position: relative;
     top: 150px;
-    left: 25px;
+    left: 30px;
     font-size: 10px;
     transition: .20s;
     cursor: pointer;
@@ -34,7 +34,8 @@ main p{
     left:10%;
     top: 20px;
     width: 100px;
-    border-radius: 1000px;
+    border-radius: 100%;
+    border: solid 2px greenyellow;
     
 }
 
@@ -54,8 +55,6 @@ main p{
 span{
     color: red;
 }
-
-
 
 .Dados-do-perfil {
     font-weight: 700;
