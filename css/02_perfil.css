@@ -1,5 +1,6 @@
 main{
     background: linear-gradient(to right, #000000, #067777);
+    box-shadow: 15px 20px 30px black;
     border-radius: 20px;
     position: relative;
     left:12%;
