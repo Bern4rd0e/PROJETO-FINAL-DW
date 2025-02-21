@@ -11,11 +11,9 @@ img {
   border-radius: 10px;
 }
 
-#atual {
+#atual{
   border: solid 2px greenyellow;
 }
-
-
 
 .assistindo {
     display: flex;
