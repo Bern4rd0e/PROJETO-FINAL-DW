@@ -2,12 +2,13 @@
 
 section {
   color: white;
+  
 }
 
 .product {
   position: relative;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -65,6 +66,7 @@ section {
   right: 10px;
   top: 10px;
   text-transform: capitalize;
+  z-index: 1;
 }
 
 .card-btn {
@@ -109,7 +111,7 @@ section {
   opacity: 0.5;
   padding-left: 5px;
   text-transform: capitalize;
-  margin: 10px 0;
+  margin: 0px 0;
 }
 
 .price {
