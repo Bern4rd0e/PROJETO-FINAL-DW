@@ -3,14 +3,23 @@ img{
     height: 150px;
     border-radius: 15px;
     margin: 20px 20px 0 20px;
+    
 }
 
-.personagens{
+.quarteto1, .quarteto2{
     display: inline-flex;
     /* border: solid 1px white; */
 }
 
 p{
-    color: white;
+    color: black;
+
+}
+
+#rick{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
