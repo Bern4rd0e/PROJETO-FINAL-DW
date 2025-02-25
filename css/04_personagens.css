@@ -11,10 +11,10 @@ img{
     /* border: solid 1px white; */
 }
 
-p{
-    color: black;
-
+.descricao-personagem {
+    color: white;
 }
+
 
 #rick{
     background-color: white;

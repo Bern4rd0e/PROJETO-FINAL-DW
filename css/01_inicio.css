@@ -10,6 +10,11 @@ body {
   background: linear-gradient(to right, #000000, #067777);
 }
 
+.header-do-site {
+  text-transform: capitalize;
+  
+}
+
 header img {
   width: 150px;
   float: left;
