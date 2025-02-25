@@ -301,6 +301,14 @@ h6{
   padding-top: 70px;
 }
 
+.eps:hover {
+  transform: scale(1.06);
+  transition: 0.35s;
+  background: #067777;
+  border-radius: 10px
+
+}
+
 .telaPrincipal p{
   padding: 0;
   margin-left: 6%;
