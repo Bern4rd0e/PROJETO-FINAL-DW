@@ -1,3 +1,22 @@
+.personagens{
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* h1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+pre{
+    color: #067777;
+    text-align: center;
+} */
+
 img{
     width: 150px;
     height: 150px;
@@ -12,11 +31,13 @@ img{
 }
 
 .descricao-personagem {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
-#rick{
+#rick, #morty, #summer, #beth, 
+#jerry, #annie, #poopybutthole,
+#beths, #birdperson, #blim-blam{
     background-color: white;
     border-radius: 10px;
     margin-top: 20px;
