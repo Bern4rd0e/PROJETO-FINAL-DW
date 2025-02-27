@@ -19,6 +19,7 @@ header img {
   width: 150px;
   float: left;
   padding-left: 30px;
+  
 }
 
 header h2 {
@@ -83,6 +84,7 @@ nav ul a:hover::after,
   padding-top: 100px;
   margin-left: 15%;
   height: auto;
+  
   mask-image: radial-gradient(
     circle,
     rgba(0, 0, 0, 1) 40%,
@@ -234,9 +236,6 @@ input[type="password"] {
   position: absolute;
 }
 
-/* #contatos{
-  text-align: center;
-} */
 
 footer {
   background-color: #067777;
@@ -266,18 +265,10 @@ footer {
   margin-bottom: 30px;
 }
 
-/* 
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-} */
 
 h6{
   color: white;
-  background-color: rgba(255, 255, 255, 0.5);  /* Fundo semitransparente */
+  background-color: rgba(255, 255, 255, 0.5);  
   float: inline-start;
   margin: 10px;
   margin-left: 20px;
@@ -312,4 +303,8 @@ h6{
 .telaPrincipal p{
   padding: 0;
   margin-left: 6%;
+}
+
+#As-pessoas-assistiram {
+  padding-left: 45px;
 }
