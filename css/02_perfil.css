@@ -77,3 +77,8 @@ span{
 #deletar{
     color: red;
 }
+
+#footer{
+    position: relative;
+    top: 600px;
+}
