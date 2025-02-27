@@ -339,22 +339,17 @@ footer a:hover{
   font-weight: 700;
 }
 
-.dev-lucas, .dev-erika {
-  font-weight: 700;
-}
+
 
 .dev-lucas:hover, .dev-erika:hover {
   color: #d9d9d9;
 }
 
-.dev-nomes {
-  font-weight: 700;
 
-}
 
 .dev-nomes:hover {
   transition: 0.5s;
   scale: 1.1;
   color: #d9d9d9;
-
+  text-decoration: underline;
 }
