@@ -42,6 +42,7 @@ nav ul li {
   display: inline-block;
   position: relative; /* Necessário para a linha */
   margin-left: 12%;
+  padding-bottom: 0;
   color: white;
   font-weight: 700;
 }
@@ -79,10 +80,12 @@ nav ul a:hover::after,
 }
 
 #tela {
+  border-radius: 90x;
+
   padding-left: 20px;
   width: 600px;
-  padding-top: 100px;
-  margin-left: 15%;
+  /* padding-top: 100px; */
+  margin-left: 18%;
   height: auto;
   
   mask-image: radial-gradient(
