@@ -70,8 +70,10 @@ nav ul li a::after {
 }
 
 
-nav ul li a:hover::after {
+
+.link-header:after {
   width: 100%;
+  color: #fff;
 }
 
 nav ul a:hover::after,
