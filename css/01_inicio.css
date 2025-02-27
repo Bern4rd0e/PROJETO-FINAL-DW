@@ -308,3 +308,21 @@ h6{
 #As-pessoas-assistiram {
   padding-left: 45px;
 }
+
+footer{
+  background-color: #067777;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.footer-descricao-1, .footer-descricao-2{
+  display: inline-block;
+}
+
+#desen{
+  padding-bottom: 15px;
+}
+
+footer a:hover{
+  color: #000000;
+}
