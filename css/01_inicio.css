@@ -12,14 +12,14 @@ body {
 
 .header-do-site {
   text-transform: capitalize;
-  
+
 }
 
 header img {
   width: 150px;
   float: left;
   padding-left: 30px;
-  
+
 }
 
 header h2 {
@@ -30,7 +30,8 @@ header h2 {
 }
 
 nav {
-  box-shadow: 0 2px 4px #067777; /* Sombra suave abaixo */
+  box-shadow: 0 2px 4px #067777;
+  /* Sombra suave abaixo */
   padding-bottom: 20px;
 }
 
@@ -40,7 +41,8 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  position: relative; /* Necessário para a linha */
+  position: relative;
+  /* Necessário para a linha */
   margin-left: 12%;
   padding-bottom: 0;
   color: white;
@@ -62,7 +64,7 @@ nav ul li a::after {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   bottom: -3px;
   left: 50%;
   transform: translateX(-50%);
@@ -76,28 +78,23 @@ nav ul li a:hover::after {
 
 nav ul a:hover::after,
 .link-header {
-    width: 100%;
+  width: 100%;
 }
 
 #tela {
   border-radius: 90x;
-
   padding-left: 20px;
   width: 600px;
   /* padding-top: 100px; */
   margin-left: 18%;
   height: auto;
-  
-  mask-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 40%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  -webkit-mask-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 40%,
-    rgba(0, 0, 0, 0) 100%
-  );
+
+  mask-image: radial-gradient(circle,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(0, 0, 0, 0) 100%);
   transition: 0.35s;
 }
 
@@ -113,6 +110,7 @@ nav ul a:hover::after,
 
 #textoPrincipal {
   width: 600px;
+  margin-bottom: 80px;
 }
 
 #min {
@@ -266,9 +264,9 @@ input[type="password"] {
 }
 
 
-h6{
+h6 {
   color: white;
-  background-color: rgba(255, 255, 255, 0.5);  
+  background-color: rgba(255, 255, 255, 0.5);
   float: inline-start;
   margin: 10px;
   margin-left: 20px;
@@ -278,17 +276,19 @@ h6{
   text-align: center;
 }
 
-.eps{
+.eps {
   display: flex;
   width: 1000px;
 
 }
 
-#telaPrincipal, .eps, h3{
+#telaPrincipal,
+.eps,
+h3 {
   color: white;
 }
 
-.eps p{
+.eps p {
   padding-top: 70px;
 }
 
@@ -297,10 +297,9 @@ h6{
   transition: 0.35s;
   background: #067777;
   border-radius: 10px
-
 }
 
-.telaPrincipal p{
+.telaPrincipal p {
   padding: 0;
   margin-left: 6%;
 }
@@ -309,22 +308,23 @@ h6{
   padding-left: 45px;
 }
 
-footer{
+footer {
   background-color: #067777;
   padding: 50px;
   border-radius: 5px;
 }
 
 
-.footer-descricao-1, .footer-descricao-2{
+.footer-descricao-1,
+.footer-descricao-2 {
   display: inline-block;
 }
 
-#desen{
+#desen {
   padding-bottom: 15px;
 }
 
-footer a:hover{
+footer a:hover {
   color: #000000;
 }
 
@@ -339,13 +339,10 @@ footer a:hover{
   font-weight: 700;
 }
 
-
-
-.dev-lucas:hover, .dev-erika:hover {
+.dev-lucas:hover,
+.dev-erika:hover {
   color: #d9d9d9;
 }
-
-
 
 .dev-nomes:hover {
   transition: 0.5s;
