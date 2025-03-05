@@ -17,7 +17,7 @@ pre{
     text-align: center;
 } */
 
-img{
+.personagens img{
     width: 150px;
     height: 150px;
     border-radius: 15px;
@@ -48,9 +48,10 @@ img{
 #footer{
     position: relative;
     top: 600px;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.git{
-    height: 0;
+.dev-lucas, .dev-erika{
 
 }
