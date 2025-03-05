@@ -3,6 +3,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+  background: linear-gradient(to right, #000000, #067777);
+
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
@@ -11,6 +16,15 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  width: 400px;
+
+  padding: 40px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 50px;
+
+  position: relative;
+  left: 39%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -60,7 +74,7 @@
 .caption-container {
   text-align: center;
   font-size: 1.2rem;
-  background-color: #444;
+  background-color:#067777;
   padding: 2px 16px;
   color: white;
 }
@@ -74,7 +88,7 @@
 /* SIX columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 15%;
 }
 
 /* FIVE columns side by side */
@@ -85,10 +99,24 @@
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.mySlides img{
+  border-radius: 20px;
+}
+
+.mySlides p{
+  font-size: 30px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+
 }
