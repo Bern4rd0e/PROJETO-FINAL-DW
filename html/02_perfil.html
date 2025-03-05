@@ -1,81 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/02_perfil.css" />
-    <title>Menu de Navegação</title>
 
-    <link rel="stylesheet" href="../css/01_inicio.css" />
-    <link rel="icon" href="../assets/Inicio/logo.png" type="image/png" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/02_perfil.css" />
+  <title>Menu de Navegação</title>
 
-  <body>
-    <header>
-      <img src="../assets/Inicio/logo.png" alt="" />
-      <h2>wubba lubba dub dub</h2>
-    </header>
+  <link rel="stylesheet" href="../css/01_inicio.css" />
+  <link rel="icon" href="../assets/Inicio/logo.png" type="image/png" />
+</head>
 
-    <nav>
-      <ul>
-        <li><a href="01_inicio.html">Home</a></li>
-        <li><a class="link-header" href="02_perfil.html">Perfil</a></li>
-        <li><a href="03_loja.html">Compras</a></li>
-        <li><a href="04_personagens.html">Personagens</a></li>
-        <li><a href="05_contato.html">Contato</a></li>
-      </ul>
-    </nav>
+<body>
+  <header>
+    <img src="../assets/Inicio/logo.png" alt="" />
+    <h2>wubba lubba dub dub</h2>
+  </header>
 
-    <main>
-      <div id="perfil">
-        <p><a id="alterarConta" href="../html/06_alterarConta.html">Alterar conta</a></p>
-        <div id="fotoNome">
-          <img id="fotoPerfil" src="../assets/perfil/perfil03.jpg" alt="" />
+  <nav>
+    <ul>
+      <li><a href="01_inicio.html">Home</a></li>
+      <li><a class="link-header" href="02_perfil.html">Perfil</a></li>
+      <li><a href="03_loja.html">Compras</a></li>
+      <li><a href="04_personagens.html">Personagens</a></li>
+      <li><a href="05_contato.html">Contato</a></li>
+    </ul>
+  </nav>
 
-          <p id="nome">McLovin Silva</p>
-        </div>
-        <div id="conta">
-          <p class="Dados-do-perfil">Email: mclovinsilva@gmail.com</p>
-          <p class="Dados-do-perfil">Telefone: +55 (84) 9 4002-8922</p>
-          <p class="Dados-do-perfil">Natal, Rio Grande do Norte - Brasil</p>
-          <br />
-          <p><a class="Dados-do-perfil" href="">Editar Foto</a></p>
-          <p><a class="Dados-do-perfil" href="">Editar Nome</a></p>
-          <br />
-          <p><a class="Dados-do-perfil" href="">Alterar Email</a></p>
-          <p><a class="Dados-do-perfil" href="">Alterar Telefone</a></p>
-          <p><a class="Dados-do-perfil" href="">Alterar senha</a></p>
-          <br />
-          <p><a class="Dados-do-perfil" href="">Plano</a></p>
-          <p><a class="Dados-do-perfil" href="">Informações</a></p>
-          <p><a class="Dados-do-perfil" href="">Termo de compromisso</a></p>
-          <br />
-          <p>
-            <a id="deletar" href="../html/06_alterarConta.html">Deleter conta</a>
-          </p>
-        </div>
+  <main>
+    <div id="perfil">
+      <p><a id="alterarConta" href="../html/06_alterarConta.html">Alterar conta</a></p>
+      <div id="fotoNome">
+        <img id="fotoPerfil" src="../assets/perfil/perfil03.jpg" alt="" />
+
+        <p id="nome">McLovin Silva</p>
       </div>
-    </main>
-    <br>
-    <br>
-    <br>
+      <div id="conta">
+        <p class="Dados-do-perfil">Email: mclovinsilva@gmail.com</p>
+        <p class="Dados-do-perfil">Telefone: +55 (84) 9 4002-8922</p>
+        <p class="Dados-do-perfil">Natal, Rio Grande do Norte - Brasil</p>
+        <br />
+        <p><a class="Dados-do-perfil" href="">Editar Foto</a></p>
+        <p><a class="Dados-do-perfil" href="">Editar Nome</a></p>
+        <br />
+        <p><a class="Dados-do-perfil" href="">Alterar Email</a></p>
+        <p><a class="Dados-do-perfil" href="">Alterar Telefone</a></p>
+        <p><a class="Dados-do-perfil" href="">Alterar senha</a></p>
+        <br />
+        <p><a class="Dados-do-perfil" href="">Plano</a></p>
+        <p><a class="Dados-do-perfil" href="">Informações</a></p>
+        <p><a class="Dados-do-perfil" href="">Termo de compromisso</a></p>
+        <br />
+        <p>
+          <a id="deletar" href="#popup">Deletar</a>
 
-    <footer id="footer">
-      <div class="footer">
-          <p id="desen">Desenvolvedores</p>
-          <div class="footer-descricao-1">
-              <!-- <p class="dev">Desenvolvedores</p> -->
-              <p class="dev-lucas">lucashenriquebarros2016@gmail.com</p>
-              <p> <img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a href="https://github.com/Lucaasshq" class="dev-nomes" target="_blank">Lucaasshq</a></p>
+        <div id="popup" class="overlay">
+          <div class="popup">
+            <h2>AVISO</h2>
+            <p id="text"> Tem certeza que deseja deletar conta?</p>
+            <p>Por exemplo, um formulário:</p>
+            <form>
+              <!-- <input type="text" placeholder="Digite algo..."> -->
+              <button type="submit">SIM</button>
+              <button type="submit">NÃO</button>
+
+            </form>
+            <a class="fechar" href="#">&times;</a>
           </div>
+        </div>
 
 
-          <div class="footer-descricao-2">
-              <!-- <p class="dev">Desenvolvedores</p> -->
-              <p class="dev-erika">b.erika@escolar.ifrn.edu.br</p>
-              <p><img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a href="https://github.com/Bern4rd0e" class="dev-nomes" target="_blank">Bern4r0e</a></p>
-          </div>
+
+        <!-- <a id="deletar" href="../html/06_alterarConta.html">Deleter conta</a> -->
+        </p>
       </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+
+  <footer id="footer">
+    <div class="footer">
+      <p id="desen">Desenvolvedores</p>
+      <div class="footer-descricao-1">
+        <!-- <p class="dev">Desenvolvedores</p> -->
+        <p class="dev-lucas">lucashenriquebarros2016@gmail.com</p>
+        <p> <img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a
+            href="https://github.com/Lucaasshq" class="dev-nomes" target="_blank">Lucaasshq</a></p>
+      </div>
+
+
+      <div class="footer-descricao-2">
+        <!-- <p class="dev">Desenvolvedores</p> -->
+        <p class="dev-erika">b.erika@escolar.ifrn.edu.br</p>
+        <p><img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a
+            href="https://github.com/Bern4rd0e" class="dev-nomes" target="_blank">Bern4r0e</a></p>
+      </div>
+    </div>
   </footer>
-  </body>
+</body>
+
 </html>
