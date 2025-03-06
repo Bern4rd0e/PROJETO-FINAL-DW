@@ -108,11 +108,13 @@ nav ul a:hover::after,
   color: white;
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 #textoPrincipal {
   width: 600px;
   margin-bottom: 80px;
+  padding-top: 50px;
 }
 
 #min {
@@ -145,6 +147,11 @@ main div ul li {
 
 h1 {
   
+}
+
+#pickle-rick{
+  padding-left: 40px;
+  padding-top: 20px;
 }
 
 div p {
