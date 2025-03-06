@@ -1,116 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galeria de Imagens</title>
-    <link rel="stylesheet" href="../css/galeira.css">
-    <link rel="stylesheet" href="../css/01_inicio.css">
 
-</head>
+    <link rel="stylesheet" href="../css/galeira.css" />
+    <link rel="stylesheet" href="../css/01_inicio.css" />
+  </head>
 
-<body>
-    <h1>Galeria de Imagens</h1>
+  <body>
+    <header>
+      <img src="../assets/Inicio/logo.png" alt="" />
+      <h2 class="header-do-site">wubba lubba dub dub</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="01_inicio.html">Home</a></li>
+        <li><a href="02_perfil.html">Perfil</a></li>
+        <li><a href="03_loja.html">Compras</a></li>
+        <li><a class="link-header" href="galeria.html">Galeria</a></li>
+        <li><a href="05_contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <h1 id="galeria-h1">Galeria de Imagens</h1>
 
     <!-- Container for the image gallery -->
     <div class="container">
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../assets/Personagens/rick.jpeg" style="width: 100%" />
+        <p>
+          <b>Rick Sanchez</b>
+          <br />
+          Humano
+          <br />
+          C-137
+          <br />
+        </p>
+      </div>
 
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-            <div class="numbertext">1 / 6</div>
-            <img src="../assets/Personagens/rick.jpeg" style="width:100%">
-            <p>
-                <b>Rick Sanchez</b>
-                <br />
-                Humano
-                <br>
-                C-137
-                <br />
-            </p>
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../assets/Personagens/morty.jpeg" style="width: 100%" />
+        <p>
+          <b>Morty Smith</b>
+          <br />
+          Humano
+          <br />
+          C-137
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../assets/Personagens/summer.jpeg" style="width: 100%" />
+        <p>
+          <b>Summer Smith</b>
+          <br />
+          Humano
+          <br />
+          Substituíção
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../assets/Personagens/beth.jpeg" style="width: 100%" />
+        <p>
+          <b>Beth Smith</b>
+          <br />
+          Humano
+          <br />
+          Substituíção
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../assets/Personagens/jerry.jpeg" style="width: 100%" />
+        <p>
+          <b>Jerry Smith</b>
+          <br />
+          Humano
+          <br />
+          Substituíção
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../assets/Personagens/birdperson.jpeg" style="width: 100%" />
+        <p>
+          <b>Birdperson</b>
+          <br />
+          Alien
+          <br />
+          Bird World
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 7</div>
+        <img src="../assets/Personagens/annie.jpeg" style="width: 100%" />
+        <p>
+          <b>Annie</b>
+          <br />
+          Humano
+          <br />
+          C-137
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img src="../assets/Personagens/blim blam.jpeg" style="width: 100%" />
+        <p>
+          <b>Blim Blam</b>
+          <br />
+          Alien
+          <br />
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 9</div>
+        <img src="../assets/Personagens/poopybutthole.jpeg" style="width: 100%" />
+        <p>
+          <b>Bebê Butthole</b>
+          <br />
+          Poopybutthole
+          <br />
+          Bebê
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 10</div>
+        <img src="../assets/Personagens/beth's.jpeg" style="width: 100%" />
+        <p>
+          <b>Beth's Mytholog</b>
+          <br />
+          Mytholog
+          <br />
+          C-Nuptia 4
+        </p>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/rick.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt="Rick Sanchez"
+          />
         </div>
-
-        <div class="mySlides">
-            <div class="numbertext">2 / 6</div>
-            <img src="../assets/Personagens/morty.jpeg" style="width:100%">
-            <p>
-                <b>Morty Smith</b>
-                <br />
-                Humano
-                <br />
-                C-137
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/morty.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt="Morty Smith"
+          />
         </div>
-
-        <div class="mySlides">
-            <div class="numbertext">3 / 6</div>
-            <img src="../assets/Personagens/summer.jpeg" style="width:100%">
-            <p>
-                <b>Summer Smith</b>
-                <br />
-                Humano
-                <br />
-                Substituíção
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/summer.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt="Summer Smith"
+          />
         </div>
-
-        <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-            <img src="../assets/Personagens/beth.jpeg" style="width:100%">
-            <p>
-                <b>Beth Smith</b>
-                <br />
-                Humano
-                <br />
-                Substituíção
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/beth.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="Beth Smith"
+          />
         </div>
-
-        <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-            <img src="../assets/Personagens/jerry.jpeg" style="width:100%">
-            <p>
-                <b>Jerry Smith</b>
-                <br />
-                Humano
-                <br />
-                Substituíção
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/jerry.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt="Jerry Smith"
+          />
         </div>
-
-
-        <div class="mySlides">
-            <div class="numbertext">5 / 6</div>
-            <img src="../assets/Personagens/birdperson.jpeg" style="width:100%">
-            <p>
-                <b>Birdperson</b>
-                <br />
-                Alien
-                <br />
-                Bird World
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/birdperson.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt="Birdperson"
+          />
         </div>
-
-        <div class="mySlides">
-            <div class="numbertext">6 / 6</div>
-            <img src="../assets/Personagens/annie.jpeg" style="width:100%">
-            <p>
-                <b>Annie</b>
-                <br />
-                Humano
-                <br />
-                C-137
-            </p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/annie.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(7)"
+            alt="Annie"
+          />
         </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-            <p id="caption"></p>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/blim blam.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(8)"
+            alt="Blim Blam"
+          />
         </div>
+<<<<<<< HEAD
 
         <!-- Thumbnail images -->
         <div class="row">
@@ -150,3 +273,28 @@
 </body>
 
 </html>
+=======
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/poopybutthole.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(9)"
+            alt="Poopybutthole"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/beth's.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(10)"
+            alt="Beth's"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="../galeria.js"></script>
+  </body>
+</html>
+>>>>>>> 9417100dad27dc9ce2617e979c0c017686b5b4e4

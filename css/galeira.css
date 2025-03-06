@@ -3,9 +3,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   background: linear-gradient(to right, #000000, #067777);
-
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -32,7 +31,6 @@ body{
   cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -49,6 +47,7 @@ body{
   -webkit-user-select: none;
 }
 
+/* Next & previous buttons */
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -74,7 +73,7 @@ body{
 .caption-container {
   text-align: center;
   font-size: 1.2rem;
-  background-color:#067777;
+  background-color: #067777;
   padding: 2px 16px;
   color: white;
 }
@@ -88,7 +87,7 @@ body{
 /* SIX columns side by side */
 .column {
   float: left;
-  width: 15%;
+  width: 10%;
 }
 
 /* FIVE columns side by side */
@@ -107,16 +106,17 @@ body{
   opacity: 1;
 }
 
-.mySlides img{
+.mySlides img {
   border-radius: 20px;
+  align-items: center;
 }
 
-.mySlides p{
+.mySlides p {
   font-size: 30px;
 }
 
-h1{
+#galeria-h1 {
   color: white;
   text-align: center;
-
+  padding-top: 20px;
 }
