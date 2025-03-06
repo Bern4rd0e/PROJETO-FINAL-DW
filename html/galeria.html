@@ -6,11 +6,25 @@
     <title>Galeria de Imagens</title>
     <link rel="stylesheet" href="../css/galeira.css" />
     <link rel="stylesheet" href="../css/01_inicio.css" />
-    <script src="../galeria.js"></script>
   </head>
 
   <body>
-    <h1>Galeria de Imagens</h1>
+    <header>
+      <img src="../assets/Inicio/logo.png" alt="" />
+      <h2 class="header-do-site">wubba lubba dub dub</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="01_inicio.html">Home</a></li>
+        <li><a href="02_perfil.html">Perfil</a></li>
+        <li><a href="03_loja.html">Compras</a></li>
+        <li><a class="link-header" href="galeria.html">Galeria</a></li>
+        <li><a href="05_contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <h1 id="galeria-h1">Galeria de Imagens</h1>
 
     <!-- Container for the image gallery -->
     <div class="container">
@@ -89,7 +103,7 @@
       </div>
 
       <div class="mySlides">
-        <div class="numbertext">6 / 6</div>
+        <div class="numbertext">6 / 7</div>
         <img src="../assets/Personagens/annie.jpeg" style="width: 100%" />
         <p>
           <b>Annie</b>
@@ -97,6 +111,41 @@
           Humano
           <br />
           C-137
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img src="../assets/Personagens/blim blam.jpeg" style="width: 100%" />
+        <p>
+          <b>Blim Blam</b>
+          <br />
+          Alien
+          <br />
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 9</div>
+        <img src="../assets/Personagens/poopybutthole.jpeg" style="width: 100%" />
+        <p>
+          <b>Bebê Butthole</b>
+          <br />
+          Poopybutthole
+          <br />
+          Bebê
+        </p>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 10</div>
+        <img src="../assets/Personagens/beth's.jpeg" style="width: 100%" />
+        <p>
+          <b>Beth's Mytholog</b>
+          <br />
+          Mytholog
+          <br />
+          C-Nuptia 4
         </p>
       </div>
 
@@ -152,7 +201,7 @@
             class="demo cursor"
             src="../assets/Personagens/jerry.jpeg"
             style="width: 100%"
-            onclick="currentSlide(4)"
+            onclick="currentSlide(5)"
             alt="Jerry Smith"
           />
         </div>
@@ -161,7 +210,7 @@
             class="demo cursor"
             src="../assets/Personagens/birdperson.jpeg"
             style="width: 100%"
-            onclick="currentSlide(5)"
+            onclick="currentSlide(6)"
             alt="Birdperson"
           />
         </div>
@@ -170,12 +219,39 @@
             class="demo cursor"
             src="../assets/Personagens/annie.jpeg"
             style="width: 100%"
-            onclick="currentSlide(6)"
+            onclick="currentSlide(7)"
             alt="Annie"
           />
         </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/blim blam.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(8)"
+            alt="Blim Blam"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/poopybutthole.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(9)"
+            alt="Poopybutthole"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../assets/Personagens/beth's.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(10)"
+            alt="Beth's"
+          />
+        </div>
       </div>
-      -->
     </div>
+    <script src="../galeria.js"></script>
   </body>
 </html>

@@ -1,80 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu de Navegação</title>
 
-    <link rel="stylesheet" href="../css/01_inicio.css">
-    <link rel="icon" href="../assets/Inicio/logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/01_inicio.css" />
+    <link rel="icon" href="../assets/Inicio/logo.png" type="image/png" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <img src="../assets/Inicio/logo.png" alt="">
-        <h2 class="header-do-site">wubba lubba dub dub</h2>
+      <img src="../assets/Inicio/logo.png" alt="" />
+      <h2 class="header-do-site">wubba lubba dub dub</h2>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="01_inicio.html">Home</a></li>
-            <li><a href="02_perfil.html">Perfil</a></li>
-            <li><a href="03_loja.html">Compras</a></li>
-            <li><a href="04_personagens.html">Personagens</a></li>
-            <li><a class="link-header" href="05_contato.html">Contato</a></li>
-        </ul>
+      <ul>
+        <li><a class="link-header" href="01_inicio.html">Home</a></li>
+        <li><a href="02_perfil.html">Perfil</a></li>
+        <li><a href="03_loja.html">Compras</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a class="link-header" href="05_contato.html">Contato</a></li>
+      </ul>
     </nav>
 
-
     <main>
+      <div>
+        <h2 class="p-entre-contatos">Entre em Contato Conosco</h2>
+        <form class="formulario-main">
+          <img class="gif-rick" src="../assets/Inicio/rick-dancando.gif" alt="" />
+          <div class="formulario">
+            <label for="">Nome:</label>
+            <input type="text" name="nome" id="nome" required />
+          </div>
 
-        <div>
-            <h2 class="p-entre-contatos">Entre em Contato Conosco</h2>
-            <form class="formulario-main">
-                <img class="gif-rick" src="../assets/Inicio/rick-dancando.gif" alt="">
-                <div class="formulario">
-                    <label for="">Nome:</label>
-                    <input type="text" name="nome" id="nome" required>
-                </div>
+          <div class="formulario">
+            <label for="">Email:</label>
+            <input type="text" name="email" id="email" required />
+          </div>
+          <div class="formulario">
+            <label for="">Mensagem:</label>
+            <textarea type="text" name="message" id="message" rows="4" required> </textarea>
 
-                <div class="formulario">
-                    <label for="">Email:</label>
-                    <input type="text" name="email" id="email" required>
-                </div>
-                <div class="formulario">
-                    <label for="">Mensagem:</label>
-                    <textarea type="text" name="message" id="message" rows="4" required> </textarea>
-
-                    <button class="button-enviar" type="submit">Enviar</button>
-                </div>
-            </form>
-
-
-        </div>
-        <br>
-        <br>
-
+            <button class="button-enviar" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <br />
+      <br />
     </main>
 
     <div class="div-footer-cor"></div>
     <footer>
-        <div class="footer">
-            <p id="desen">Desenvolvedores</p>
-            <div class="footer-descricao-1">
-                <!-- <p class="dev">Desenvolvedores</p> -->
-                <p class="dev-lucas">lucashenriquebarros2016@gmail.com</p>
-                <p> <img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a href="https://github.com/Lucaasshq" class="dev-nomes" target="_blank">Lucaasshq</a></p>
-            </div>
-
-            <div class="footer-descricao-2">
-                <!-- <p class="dev">Desenvolvedores</p> -->
-                <p class="dev-erika">b.erika@escolar.ifrn.edu.br</p>
-                <p><img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub"><a href="https://github.com/Bern4rd0e" class="dev-nomes" target="_blank">Bern4r0e</a></p>
-            </div>
+      <div class="footer">
+        <p id="desen">Desenvolvedores</p>
+        <div class="footer-descricao-1">
+          <!-- <p class="dev">Desenvolvedores</p> -->
+          <p class="dev-lucas">lucashenriquebarros2016@gmail.com</p>
+          <p>
+            <img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub" /><a
+              href="https://github.com/Lucaasshq"
+              class="dev-nomes"
+              target="_blank"
+              >Lucaasshq</a
+            >
+          </p>
         </div>
-    </footer>
-</body>
 
+        <div class="footer-descricao-2">
+          <!-- <p class="dev">Desenvolvedores</p> -->
+          <p class="dev-erika">b.erika@escolar.ifrn.edu.br</p>
+          <p>
+            <img src="../assets/github-image/github-mark.png" alt="#" class="img-git-hub" /><a
+              href="https://github.com/Bern4rd0e"
+              class="dev-nomes"
+              target="_blank"
+              >Bern4r0e</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
