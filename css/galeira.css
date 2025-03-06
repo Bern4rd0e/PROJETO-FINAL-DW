@@ -23,7 +23,7 @@ body {
   border-radius: 50px;
 
   position: relative;
-  left: 38%;
+  left: 38.65%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -108,10 +108,12 @@ body {
 .mySlides img {
   border-radius: 20px;
   align-items: center;
+  position: relative;
 }
 
 .mySlides p {
   font-size: 30px;
+
 }
 
 #galeria-h1 {
